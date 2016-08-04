@@ -1,2 +1,4 @@
 # NODEJS-Labs
-NODEJS-Development and Projects
+These are my nodeJS Development Projects.
+
+Each contains it's own README, explaining the Projects Scope
