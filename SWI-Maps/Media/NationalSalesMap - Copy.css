@@ -1,0 +1,138 @@
+.PolygonOverlay
+{font-size:0.85em;}
+
+.MapPanelWrap
+{height:100%;width:100%}
+
+.CloseMapControl
+{
+	/*position:absolute;top:5px;right:5px;*/
+	float:right;
+	cursor:pointer;
+}
+
+.MapControl
+{
+	font-family:Helvetica;
+	background-color:white;border:1px solid #666666;
+	padding:3px;margin:2px;margin-top:4px;
+	font-size:0.9em;line-height:10px;cursor:pointer;
+	-moz-border-radius: 4px; /* Firefox */
+	-webkit-border-radius: 4px; /* Safari, Chrome */
+	border-radius: 4px; /* CSS3 */
+}
+
+.CountyMapLabel
+{
+	font-size:0.7em;white-space:nowrap;
+	text-shadow: 0 0px 0 #FFFFFF;
+}
+
+.ZipMapLabel
+{
+	font-size:0.7em;white-space:nowrap;
+	text-shadow: 0 0px 0 #FFFFFF;
+}
+
+.GeoInfoChart
+{padding-top:3px;}
+
+.StateInfoChart .InputLabelWrap label
+{
+	width:85px;text-align:right;
+	padding-right:2px;
+}
+
+.GeoInfoWindowWrap .body
+{font-size:0.65em;}
+
+.GeoInfoWindowWrap .body.fixedHeight
+{height:55px;overflow:auto}
+
+.GeoInfoWindowWrap .body .InputLabelWrap label
+,.GeoInfoWindowWrap .body .InputLabelWrap .InputWrap
+{padding-top:1px;padding-bottom:1px;}
+
+#ControlPanel
+{
+	width:100%;height:100%;overflow:auto;
+	/*color:white;*/
+	border:2px inset #777777;
+	background-color:#DDDDDD;
+	/*background-color:white;*/
+	z-index:4
+	/*position:relative;*/
+}
+
+.ControlPanelInnerWrap
+{
+	margin:5px;
+}
+
+#GeoDataOverviewWrap
+{font-size:0.8em;}
+
+.GeoDataCloneWrap
+{
+	display:inline-block;
+	margin:1px;margin-bottom:6px;
+}
+
+.GeoDataCloneWrap .CloneInnerWrap
+{
+	width:145px;background-color:#EEEEEE;
+	display:table-cell;padding:2px;
+	-moz-border-radius: 3px; /* Firefox */
+	-webkit-border-radius: 3px; /* Safari, Chrome */
+	border-radius: 3px; /* CSS3 */
+}
+
+.GeoDataCloneWrap .GeoDataLabel
+{background-color:#FCFCFC;padding:1px;}
+
+.GeoDataCloneWrap .GeoDetailDataWrap
+{
+	font-size:0.75em;
+	font-family:Arial;
+	text-shadow:none;
+	padding:1px;
+	/*text-shadow: 0 0px 0 #FFFFFF;*/
+}
+
+.NationalSalesMapAjaxLoadingIcon
+{
+	position:absolute;top:3px;right:3px;z-index:4000;
+	width:14px;height:14px;
+}
+
+.ViewListingWrap
+{
+	padding-left:6px;
+	font-size:0.7em;
+	text-shadow: 0 0px 0 #FFFFFF;
+}
+
+.ViewListingButton
+{
+	cursor:pointer;
+	border:1px solid black;
+	text-decoration:none;
+	background-color:white;
+	-moz-border-radius: 3px; /* Firefox */
+	-webkit-border-radius: 3px; /* Safari, Chrome */
+	border-radius: 3px; /* CSS3 */
+}
+
+.ViewListingButton:hover
+{background-color:blue;color:white}
+
+.ui-icon-highway
+{
+	background-image: url("Highway18x18.png");
+}
+
+.ControlPanelInnerWrap .ui-controlgroup-controls
+{width:auto !important}
+
+.StateToCountyTrigger, .CountyToZipTrigger, .GeoNavBack
+{cursor:pointer}
